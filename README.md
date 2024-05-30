@@ -1,4 +1,3 @@
-# Employee Performance Data Analysis: Excel to PowerBI
 
  - Hey there! I'm excited to share with you this comprehensive analysis of employee performance data, transitioning from Excel to PowerBI. This project aims to provide valuable insights into various aspects of employee performance within an organization.
 
