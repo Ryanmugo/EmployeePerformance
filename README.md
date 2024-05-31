@@ -186,6 +186,26 @@ WHERE TABLE_NAME = 'PerformanceAnalysis'
 ![employee_dashboard](assets/images/employee_dashboard.png)
 
 
+# DAX Measures I used in by Data Visualization:
 
+# 1. Average Age.
+
+![average_age](assets/images/average_age.png)
+
+# 2. Average Training Score.
+
+![average_training_score](assets/images/average_training_score.png)
+
+# 3. Total Employees.
+
+![total_employees](assets/images/total_employees.png)
+
+# 4. Total Regions.
+
+![total_regions](assets/images/total_regions.png)
+
+# New Column I created and used in one of my graphs:
+
+![new_column](assets/images/new_column.png)
 
 
