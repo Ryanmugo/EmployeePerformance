@@ -106,7 +106,7 @@ The cleaned data should meet the following criteria and constraints:
     | avg_training_score| FLOAT     | NO       |
 
 
-  # Creating SQL DATABASE AND VIEW
+ # CREATING SQL DATABASE AND VIEW
 
   ```sql
   -- SQL QUERY CREATION OF DATABASE AND USING IT
@@ -129,5 +129,24 @@ The cleaned data should meet the following criteria and constraints:
 
   
   
+# Testing
+
+ - What data quality and validation checks are we going to create?
+
+Here are the data quality tests:
+
+# 1. Row count check
+
+``` sql
+
+SELECT
+  COUNT(*) AS no_of_rows
+FROM
+  PerformanceAnalysis
+
+```
+
+[no_of_rows_count](assets/images/no_of_rows.png)
+
 
     
