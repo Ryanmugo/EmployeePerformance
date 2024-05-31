@@ -34,4 +34,100 @@
   
 - ### Dashboard components required
 
- 
+- What should the dashboard contain based on the requirements provided?
+
+   - Highest Average Training Score by Department
+   - Variation of Average Age Across Departments
+   - Average Performance Score by Gender
+   - Correlation Between Tenure and Performance Scores
+
+
+## Tools
+
+## Tools and their purposes
+
+| Tool        | Purpose                                            |
+|-------------|----------------------------------------------------|
+| Excel       | Exploring the data                                 |
+| SQL Server  | Cleaning, testing, and analyzing the data          |
+| Power BI    | Visualizing the data via interactive dashboards    |
+| GitHub      | Hosting the project documentation and version control |
+
+# Development
+
+## Pseudocode
+
+- What will be our general approach in creating this solution from start to finish?
+
+   1. Get the data from Kaggle.
+   2. Explore the data from Excel.
+   3. Load the data with SQL.
+   4. Clean the data with SQL.
+   5. Test the data with SQL.
+   6. Visualize the data in Power BI.
+   7. Generate the findings based on the insights.
+   8. Write the documentation + commentary.
+   9. Publish the data to Github Pages.
+   
+
+# Data Cleaning
+
+- What do we expect the clean data to look like? (Like what should it contain? What constraints should we apply to it?)
+
+The aim is to refine our dataset to ensure it is structured and ready for analysis.
+
+The cleaned data should meet the following criteria and constraints:
+
+  - Only relevant columns should be retained.
+  - All data types should be appropriate for the contents of each column.
+  - No column should contain null values, indicating complete data for all records.
+
+  Below is a table outlining the constraints on our cleaned dataset:
+
+    | Property          | Description |
+    |-------------------|-------------|
+    | Number of Rows    | 17417       |
+    | Number of Columns | 8           |  
+
+
+
+  Tabular representation of the expected schema for the clean data:
+
+
+    | Column Name       | Data Type | Nullable |
+    |-------------------|-----------|----------|
+    | employee_id       | INT       | NO       |
+    | department        | NVARCHAR  | NO       |
+    | region            | NVARCHAR  | NO       |
+    | no_of_trainings   | TINYINT   | NO       |
+    | age               | TINYINT   | NO       |
+    | gender            | NVARCHAR  | NO       |
+    | length_of_service | TINYINT   | NO       |
+    | avg_training_score| FLOAT     | NO       |
+
+
+  # Creating SQL DATABASE AND VIEW
+
+  ```sql
+  -- SQL QUERY CREATION OF DATABASE AND USING IT
+
+  -- CREATION
+  CREATE DATABASE EmployeePerformance
+
+  -- USING DATABASE
+
+  USE EmployeePerformance
+
+  -- CREATION OF VIEW
+
+  CREATE VIEW PerformanceAnalysis AS
+  SELECT
+    employee_id, department, no_of_trainings, age, length_of_service, avg_training_score
+  FROM EmployeePerformance
+
+  ```
+
+  
+  
+
+    
