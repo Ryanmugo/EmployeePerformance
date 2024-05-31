@@ -209,3 +209,23 @@ WHERE TABLE_NAME = 'PerformanceAnalysis'
 ![new_column](assets/images/new_column.png)
 
 
+# Analysis
+
+# Findings and Discoveries
+
+- ***1. Highest Average Training By Department***
+
+![question_5](assets/images/answer_5.png)
+
+
+- ***2. Variation of Average Age Across Departments***
+
+![question_6](assets/images/answer_6.png)
+
+- ***3. Average Performance Score by Gender***
+
+![question_7](assets/images/answer_7.png)
+
+- ***4. Correlation Between Tenure and Performance Scores***
+
+![question_8](assets/images/answer_8.png)
