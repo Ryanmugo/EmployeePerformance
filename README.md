@@ -148,5 +148,21 @@ FROM
 
 ![no_of_rows_count](assets/images/no_of_rows.png)
 
+# 2. Column check
+
+``` sql
+
+SELECT
+  COUNT(*) AS no_of_columns
+FROM
+  INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'PerformanceAnalysis'
+
+```
+
+![no_columns_count](assets/images/no_of_columns.png)
+
+
+
 
     
