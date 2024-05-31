@@ -163,6 +163,29 @@ WHERE TABLE_NAME = 'PerformanceAnalysis'
 ![no_columns_count](assets/images/no_of_columns.png)
 
 
+# Data type check
 
+``` sql
 
+SELECT
+  COUNT(*) AS no_of_columns
+FROM
+  INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'PerformanceAnalysis'
+
+```
+
+![data_types](assets/images/data_types.png)
     
+# Visualization
+
+# Results
+
+ - So, how does the dashboard look like?
+
+![employee_dashboard](assets/images/employee_dashboard.png)
+
+
+
+
+
