@@ -146,7 +146,7 @@ FROM
 
 ```
 
-[no_of_rows_count](assets/images/no_of_rows.png)
+![no_of_rows_count](assets/images/no_of_rows.png)
 
 
     
